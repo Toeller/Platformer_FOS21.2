@@ -1,115 +1,132 @@
-import java.util.ArrayList;
-import java.util.List;
+using System;
+using System.Collections.Generic;
 
-public class PlatformerGame {
+// Projekt: Plattformer
+// Schule: FOS
+// Klasse: FOS21
+// Lehrer: Herr Töller
+// Schüler: Taha Iftikhar
 
-    public static void main(String[] args) {
-        Game game = new Game();
-        game.start();
+class Program
+{
+    static void Main(string[] args)
+    {
+        Game g = new Game();
+        g.Start();
+
+        Console.ReadKey(); // Fenster offen halten
     }
 }
 
-/* ===================== GAME ===================== */
-class Game {
+/* ================= SPIEL ================= */
+class Game
+{
+    Level level1;
 
-    private Level currentLevel;
-    private List<Level> levels;
-
-    public Game() {
-        levels = new ArrayList<>();
-        levels.add(new Level("Level 1"));
-        levels.add(new Level("Level 2"));
-        currentLevel = levels.get(0);
+    public Game()
+    {
+        // Es gibt erstmal nur ein Level
+        level1 = new Level("Level 1");
     }
 
-    public void start() {
-        System.out.println("Platformer gestartet!");
-        currentLevel.start();
+    public void Start()
+    {
+        Console.WriteLine("Spiel startet");
+        level1.Start();
     }
 }
 
-/* ===================== LEVEL ===================== */
-class Level {
+/* ================= LEVEL ================= */
+class Level
+{
+    string name;
+    Player spieler;
+    List<Enemy> gegner;
+    List<Platform> platformen;
 
-    private String name;
-    private Player player;
-    private List<Enemy> enemies;
-    private List<Platform> platforms;
+    public Level(string n)
+    {
+        name = n;
+        spieler = new Player(0, 0);
 
-    public Level(String name) {
-        this.name = name;
-        player = new Player(0, 0);
-        enemies = new ArrayList<>();
-        platforms = new ArrayList<>();
-        setup();
+        gegner = new List<Enemy>();
+        platformen = new List<Platform>();
+
+        // Gegner und Plattform hinzufügen
+        gegner.Add(new Enemy(5, 0));
+        platformen.Add(new Platform(0, -1, 10));
     }
 
-    private void setup() {
-        enemies.add(new Enemy(5, 0));
-        platforms.add(new Platform(0, -1, 10));
-    }
+    public void Start()
+    {
+        Console.WriteLine("Starte " + name);
 
-    public void start() {
-        System.out.println("Starte " + name);
-        update();
-    }
+        spieler.Rechts();
+        spieler.Springen();
 
-    private void update() {
-        player.moveRight();
-        player.jump();
-
-        for (Enemy enemy : enemies) {
-            enemy.move();
+        foreach (Enemy g in gegner)
+        {
+            g.Bewegen();
         }
     }
 }
 
-/* ===================== PLAYER ===================== */
-class Player {
+/* ================= SPIELER ================= */
+class Player
+{
+    int x;
+    int y;
+    int leben = 3; // aktuell noch ohne Funktion
 
-    private int x, y;
-    private int lives = 3;
-
-    public Player(int x, int y) {
-        this.x = x;
-        this.y = y;
+    public Player(int startX, int startY)
+    {
+        x = startX;
+        y = startY;
     }
 
-    public void moveRight() {
-        x++;
-        System.out.println("Spieler bewegt sich nach rechts: x=" + x);
+    public void Rechts()
+    {
+        x = x + 1;
+        Console.WriteLine("Spieler geht nach rechts. X = " + x);
     }
 
-    public void jump() {
-        y++;
-        System.out.println("Spieler springt: y=" + y);
-    }
-}
-
-/* ===================== ENEMY ===================== */
-class Enemy {
-
-    private int x, y;
-
-    public Enemy(int x, int y) {
-        this.x = x;
-        this.y = y;
-    }
-
-    public void move() {
-        x--;
-        System.out.println("Gegner bewegt sich: x=" + x);
+    public void Springen()
+    {
+        y = y + 1;
+        Console.WriteLine("Spieler springt. Y = " + y);
     }
 }
 
-/* ===================== PLATFORM ===================== */
-class Platform {
+/* ================= GEGNER ================= */
+class Enemy
+{
+    int x;
+    int y;
 
-    private int x, y, width;
+    public Enemy(int startX, int startY)
+    {
+        x = startX;
+        y = startY;
+    }
 
-    public Platform(int x, int y, int width) {
-        this.x = x;
-        this.y = y;
-        this.width = width;
+    public void Bewegen()
+    {
+        x = x - 1;
+        Console.WriteLine("Gegner bewegt sich. X = " + x);
+    }
+}
+
+/* ================= PLATTFORM ================= */
+class Platform
+{
+    int x;
+    int y;
+    int breite;
+
+    public Platform(int px, int py, int b)
+    {
+        x = px;
+        y = py;
+        breite = b;
     }
 }
