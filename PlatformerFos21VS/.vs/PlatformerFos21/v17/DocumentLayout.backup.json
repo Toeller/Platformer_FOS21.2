@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Software\\PlatformerFos21\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D949C9D-3EB6-457E-8712-B0AA14E7CAE0}|PlatformerFos21.csproj|H:\\Software\\PlatformerFos21\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D949C9D-3EB6-457E-8712-B0AA14E7CAE0}|PlatformerFos21.csproj|solutionrelative:platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D949C9D-3EB6-457E-8712-B0AA14E7CAE0}|PlatformerFos21.csproj|H:\\Software\\PlatformerFos21\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D949C9D-3EB6-457E-8712-B0AA14E7CAE0}|PlatformerFos21.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D949C9D-3EB6-457E-8712-B0AA14E7CAE0}|PlatformerFos21.csproj|H:\\Software\\PlatformerFos21\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2D949C9D-3EB6-457E-8712-B0AA14E7CAE0}|PlatformerFos21.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D949C9D-3EB6-457E-8712-B0AA14E7CAE0}|PlatformerFos21.csproj|H:\\Software\\PlatformerFos21\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D949C9D-3EB6-457E-8712-B0AA14E7CAE0}|PlatformerFos21.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Platform.cs",
+              "DocumentMoniker": "H:\\Software\\PlatformerFos21\\Platform.cs",
+              "RelativeDocumentMoniker": "Platform.cs",
+              "ToolTip": "H:\\Software\\PlatformerFos21\\Platform.cs",
+              "RelativeToolTip": "Platform.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:35:46.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "H:\\Software\\PlatformerFos21\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "H:\\Software\\PlatformerFos21\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:30:09.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "H:\\Software\\PlatformerFos21\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "H:\\Software\\PlatformerFos21\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:24:20.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Entwurf]",
+              "DocumentMoniker": "H:\\Software\\PlatformerFos21\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "H:\\Platformer\\PlatformerFos21\\Form1.cs [Entwurf]",
+              "RelativeToolTip": "..\\..\\Platformer\\PlatformerFos21\\Form1.cs [Entwurf]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:19:27.574Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
