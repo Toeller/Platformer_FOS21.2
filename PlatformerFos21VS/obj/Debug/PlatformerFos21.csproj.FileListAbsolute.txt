@@ -18,3 +18,13 @@ H:\VS\PlatformerFos21VS\obj\Debug\PlatformerFos21.csproj.GenerateResource.cache
 H:\VS\PlatformerFos21VS\obj\Debug\PlatformerFos21.csproj.CoreCompileInputs.cache
 H:\VS\PlatformerFos21VS\obj\Debug\PlatformerFos21.exe
 H:\VS\PlatformerFos21VS\obj\Debug\PlatformerFos21.pdb
+C:\Users\toel\source\repos\Platformer_FOS21.2\PlatformerFos21VS\bin\Debug\PlatformerFos21.exe.config
+C:\Users\toel\source\repos\Platformer_FOS21.2\PlatformerFos21VS\bin\Debug\PlatformerFos21.exe
+C:\Users\toel\source\repos\Platformer_FOS21.2\PlatformerFos21VS\bin\Debug\PlatformerFos21.pdb
+C:\Users\toel\source\repos\Platformer_FOS21.2\PlatformerFos21VS\obj\Debug\PlatformerFos21.csproj.AssemblyReference.cache
+C:\Users\toel\source\repos\Platformer_FOS21.2\PlatformerFos21VS\obj\Debug\PlatformerFos21.Form1.resources
+C:\Users\toel\source\repos\Platformer_FOS21.2\PlatformerFos21VS\obj\Debug\PlatformerFos21.Properties.Resources.resources
+C:\Users\toel\source\repos\Platformer_FOS21.2\PlatformerFos21VS\obj\Debug\PlatformerFos21.csproj.GenerateResource.cache
+C:\Users\toel\source\repos\Platformer_FOS21.2\PlatformerFos21VS\obj\Debug\PlatformerFos21.csproj.CoreCompileInputs.cache
+C:\Users\toel\source\repos\Platformer_FOS21.2\PlatformerFos21VS\obj\Debug\PlatformerFos21.exe
+C:\Users\toel\source\repos\Platformer_FOS21.2\PlatformerFos21VS\obj\Debug\PlatformerFos21.pdb

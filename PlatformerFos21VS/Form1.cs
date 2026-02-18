@@ -12,10 +12,11 @@ namespace PlatformerFos21
 {
     public partial class Form1 : Form
     {
+        #region Attribute
         // === Платформы ===
         List<Platform> platforms = new List<Platform>();
         Random rand = new Random();
-        float lastY; // координата Y последней платформы для генерации новых платформ
+        private float lastY; // координата Y последней платформы для генерации новых платформ
 
         // === ПОЛЯ КЛАССА ===
         Player player;
@@ -30,7 +31,7 @@ namespace PlatformerFos21
 
         // === КАМЕРА ===
         float cameraY = 0; // смещение камеры по вертикали
-
+        #endregion
         public Form1()
         {
             InitializeComponent();
